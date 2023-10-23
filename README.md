@@ -1,4 +1,4 @@
-# My-first-Webpage
+# Zamn-Labs
 
 This is the website I have been working on to get the hang of
 Flask
