@@ -1,0 +1,324 @@
+{% extends "base.html" %}
+
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link ref="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="row g-5" style="padding: 7%">
+        <div class="col-md-8">
+          <h3 class="pb-4 mb-4 fst-italic border-bottom">
+            About
+          </h3>
+    
+          <article class="blog-post">
+            <h2 class="display-5 link-body-emphasis mb-1">Damien Hosea</h2>
+            <p class="blog-post-meta">Born June 12,1989 </a></p>
+    
+            <hr>
+            <h2>Personal Bio: </h2>
+            <p> As a dedicated Computer Science Undergraduate with a non-traditional background, I am a testament to the power of passion and perseverance. 
+              I thrive on solving complex problems and innovating alongside like-minded engineers, even though I didn't start my journey in the tech field.</p>
+
+            <p>My enthusiasm for technology is all-encompassing, spanning from Artificial Intelligence and web development to 3D printing. 
+                With hands-on experience in multiple programming languages, I specialize in Java, HTML, and CSS. My strong communication skills enable me to effectively share knowledge and collaborate on team projects.</p>
+              
+            <p>I am not just eager to learn but also enthusiastic about teaching, making me a versatile asset to any team. 
+                I am driven by the endless possibilities that technology offers and am committed to leveraging my skills to make a meaningful impact in the field.</p>
+              
+            <p>Whether it's working on a groundbreaking project, exploring the latest in 3D printing, or mentoring the next generation of tech leaders, I am always up for the challenge. 
+                My commitment to fostering an inclusive and collaborative workspace makes me not just a team player, but a team builder. </p>
+            
+            <h2>Work Experience: </h2>
+            <h5> Innovation Educator at <a href="https://www.hiddengeniusproject.org/"> The Hidden Genius Project </a></h5>
+            <p>Oakland, California<br>
+              Date: May 2023 - Present</p>
+              <ul>
+                <li>Collaborated with the Senior Innovation Educator and Curriculum Lead to innovate and adapt a comprehensive curriculum focused on technology, entrepreneurship, and leadership.</li>
+                <li>Led immersive cohort sessions during summer and school-year programs, teaching core concepts in technology, entrepreneurship, and leadership.</li>
+                <li>Facilitated training sessions for Genius alumni aspiring to become Youth Educators. Provided advanced programming skills training and content enhancement methods to current Youth Educators.</li>
+                <li>Coordinated and managed a team of Youth Educators, overseeing educational activities within Catalyst programming.</li>
+                <li>Acted as an ambassador for The Hidden Genius Project within the community, maintaining effective communication with participants and their parents/guardians.</li>
+              </ul>
+
+              <h5> QA Engineer Intern at <a href=" https://www.authentic8.com/"> Authentic8 </a></h5>
+
+              <p>San Francisco, California (Remote)<br>
+                Date: Jun 2022 - Aug 2022</p>
+                <ul>
+                  <li>Worked alongside engineers and product management during Agile Sprints via Zoom to resolve issues.</li>
+                  <li>Utilized Jira to submit bug reports and revise steps for reproducing bugs.</li>
+                  <li>Created a webpage that utilizes HTML, CSS, and JavaScript to decode Base64 from JSON commands.</li>
+                  <li>Conducted stress tests on Authentic8 Desktop and Web-Client servers every two weeks using Azure.</li>
+                </ul>
+
+                <!-- Education Section  -->
+                <div class="education-box">
+                <h2>Education: </h2>
+
+                <h3>Bachelors of Science in Computer Science</h3>
+                <p>Expected Graduation Fall 2024<br>
+                  San Francisco State University | San Francisco, California</p>
+                  <p>Relevant Coursework: Data Structures, Calculus I & II, General Physics with Calc, Software Development, Intro to Web Software Development, Ethics, Communications & Software Dev</p>
+
+                  <h3>General Education / Computer Science</h3>
+                  <p>Aug 2017 - Jun 2020<br>
+                    Los Angeles City College | Los Angeles, California</p>
+                    <p>Member of STEM pathways<br>
+                    Member of the LACC Computer Science Club</p>
+                    <p>Relevant Coursework: Intro to Computers & their use, Intro to Computer systems for miscellaneous uses, C++ Programming I & II, Public Speaking</p>
+                  </div>
+
+            <h2>Heading</h2>
+            <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
+            <h3>Sub-heading</h3>
+            <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
+            <pre><code>Example code block</code></pre>
+            <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the other highly repetitive body text used throughout.</p>
+          </article>
+    
+          <article class="blog-post">
+            <h2 class="display-5 link-body-emphasis mb-1">Another blog post</h2>
+            <p class="blog-post-meta">December 23, 2020 by <a href="#">Jacob</a></p>
+    
+            <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
+            <blockquote>
+              <p>Longer quote goes here, maybe with some <strong>emphasized text</strong> in the middle of it.</p>
+            </blockquote>
+            <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
+            <h3>Example table</h3>
+            <p>And don't forget about tables in these posts:</p>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Upvotes</th>
+                  <th>Downvotes</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Alice</td>
+                  <td>10</td>
+                  <td>11</td>
+                </tr>
+                <tr>
+                  <td>Bob</td>
+                  <td>4</td>
+                  <td>3</td>
+                </tr>
+                <tr>
+                  <td>Charlie</td>
+                  <td>7</td>
+                  <td>9</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <td>Totals</td>
+                  <td>21</td>
+                  <td>23</td>
+                </tr>
+              </tfoot>
+            </table>
+    
+            <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the other highly repetitive body text used throughout.</p>
+          </article>
+<!--     
+          <article class="blog-post">
+            <h2 class="display-5 link-body-emphasis mb-1">New feature</h2>
+            <p class="blog-post-meta">December 14, 2020 by <a href="#">Chris</a></p>
+    
+            <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
+            <ul>
+              <li>First list item</li>
+              <li>Second list item with a longer description</li>
+              <li>Third list item to close it out</li>
+            </ul>
+            <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the other highly repetitive body text used throughout.</p>
+          </article> -->
+    
+          <nav class="blog-pagination" aria-label="Pagination">
+            <a class="btn btn-outline-primary rounded-pill" href="#">Back to Top </a>
+            <!-- <a class="btn btn-outline-secondary rounded-pill disabled" aria-disabled="true">Newer</a> -->
+          </nav>
+    
+        </div>
+    
+        <div class="col-md-4">
+          <div class="position-sticky" style="top: 2rem;">
+            <!-- <div class="p-4 mb-3 bg-body-tertiary rounded">
+              <h4 class="fst-italic">About</h4>
+              <p class="mb-0">Customize this section to tell your visitors a little bit about your publication, writers, content, or something else entirely. Totally up to you.</p>
+            </div> -->
+    
+            <figure class="figure">
+                <img src="/static/Photos/IMG_0986.JPG" class="figure-img img-fluid rounded" alt="...">
+                <figcaption class="figure-caption">An A.I. Generated photo of Damien H.</figcaption>
+              </figure>
+              <div>
+                <h3 class="fst-italic">Skills</h3>
+                <hr>
+                <h5> Languages </h5>
+                
+                <h6>Java</h6>
+                <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar progress-bar-striped bg-success progress-bar-animated" style="width: 100%"></div>
+                  </div>
+
+                <h6>C++</h6>
+                <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar progress-bar-striped bg-success progress-bar-animated" style="width: 100%"></div>
+                  </div>
+
+                <h6>Swift</h6>
+                <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar progress-bar-striped bg-success progress-bar-animated" style="width: 85%"></div>
+                  </div>
+            
+                <h6>Python</h6>
+                <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar progress-bar-striped bg-success progress-bar-animated" style="width: 75%"></div>
+                  </div>
+
+                <h6>Scratch/Block Coding</h6>
+                <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar progress-bar-striped bg-success progress-bar-animated" style="width: 100%"></div>
+                  </div>
+                  <hr>
+
+                  <h5> Web Technologies </h5>
+
+                  <h6>HTML</h6>
+                <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar progress-bar-striped bg-dark progress-bar-animated" style="width: 100%"></div>
+                  </div>
+
+              <h6>CSS</h6>
+                <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar progress-bar-striped bg-dark progress-bar-animated" style="width: 100%"></div>
+                  </div>
+
+                  <h6>JavaScript</h6>
+                <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar progress-bar-striped bg-dark progress-bar-animated" style="width: 100%"></div>
+                  </div>
+
+                  <h6>MySQL</h6>
+                <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar progress-bar-striped bg-dark progress-bar-animated" style="width: 80%"></div>
+                  </div>
+                  <hr>
+            
+              <!-- <h6>Python</h6>
+                <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar progress-bar-striped bg-success progress-bar-animated" style="width: 75%"></div>
+                  </div> -->
+
+
+                  <h4> Tools </h4>
+                  <div class="container marketing">
+
+                    <div class="row">
+                      <div class="col-lg-4">
+                        <img src="/static/Photos/vs code.jpeg"  width="40" height="40" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+                        <h6 class="fw-normal">VS Code</h6>
+                        <!-- <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p> -->
+                      </div><!-- /.col-lg-4 -->
+                      <div class="col-lg-4">
+                        <img src="/static/Photos/intellij.jpeg" width="40" height="40" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+                        <h6 class="fw-normal">IntelliJ</h6>
+                        <!-- <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p> -->
+                      </div><!-- /.col-lg-4 -->
+                      <div class="col-lg-4">
+                        <img src="/static/Photos/git.png" width="40" height="40" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+                        <h6 class="fw-normal">GIT</h6>
+                        <!-- <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p> -->
+                      </div><!-- /.col-lg-4 -->
+                      <br>
+                      <div class="col-lg-4">
+                        <img src="/static/Photos/unity.png" width="40" height="40" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+                        <h6 class="fw-normal">Unity</h6>
+                        <!-- <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p> -->
+                      </div><!-- /.col-lg-4 -->
+                    </div><!-- /.row -->
+                <hr>
+
+              <div class="p-4">
+                <h4 class="fst-italic">Contact Me</h4>
+                <ol class="list-unstyled">
+                  <li><a href="http://www.linkedin.com/in/hoseadamien/" target="_blank">Linkedin</a></li>
+                  <li><a href="http://www.github.com/Hosea1989">GitHub</a></li>
+                  <li><a href="mailto:hoseadamien@icloud.com">Email</a></li>
+                </ol>
+              </div>
+
+            <!-- <div>
+              <h4 class="fst-italic">Specialities</h4>
+              <ul class="list-unstyled">
+                <li>
+                  <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                    <svg class="bd-placeholder-img" width="100%" height="96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+                    <div class="col-lg-8">
+                      <h6 class="mb-0">Example blog post title</h6>
+                      <small class="text-body-secondary">January 15, 2023</small>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                    <svg class="bd-placeholder-img" width="100%" height="96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+                    <div class="col-lg-8">
+                      <h6 class="mb-0">This is another blog post title</h6>
+                      <small class="text-body-secondary">January 14, 2023</small>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                    <svg class="bd-placeholder-img" width="100%" height="96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+                    <div class="col-lg-8">
+                      <h6 class="mb-0">Longer blog post title: This one has multiple lines!</h6>
+                      <small class="text-body-secondary">January 13, 2023</small>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div> -->
+    
+            <!-- <div class="p-4">
+              <h4 class="fst-italic">Archives</h4>
+              <ol class="list-unstyled mb-0">
+                <li><a href="#">March 2021</a></li>
+                <li><a href="#">February 2021</a></li>
+                <li><a href="#">January 2021</a></li>
+                <li><a href="#">December 2020</a></li>
+                <li><a href="#">November 2020</a></li>
+                <li><a href="#">October 2020</a></li>
+                <li><a href="#">September 2020</a></li>
+                <li><a href="#">August 2020</a></li>
+                <li><a href="#">July 2020</a></li>
+                <li><a href="#">June 2020</a></li>
+                <li><a href="#">May 2020</a></li>
+                <li><a href="#">April 2020</a></li>
+              </ol>
+            </div> -->
+    
+          </div>
+        </div>
+      </div>
+        </div>
+
+        
+    
+
+</body>
+</html>
+{% endblock %}

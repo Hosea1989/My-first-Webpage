@@ -1,0 +1,28 @@
+.cover-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+}
+
+body{
+    background-color: #333;
+    color: white;
+    background-image: url('/static/Photos/Space-Background-Image-3.jpg');
+}
+
+.nav-link{
+    color:white;
+
+}
+
+.nav-link.active{
+    color:yellow;
+}
+
+.btn-secondary{
+    background-color: #555;
+    border-color: #555;
+}
